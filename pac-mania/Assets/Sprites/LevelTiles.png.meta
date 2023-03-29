@@ -147,7 +147,7 @@ TextureImporter:
       213: 21300094
     second: LevelTiles_47
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -168,7 +168,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -178,8 +177,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
-    mipBias: 0
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -200,14 +199,11 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -223,18 +219,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1266,55 +1250,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      LevelTiles_24: 21300048
-      LevelTiles_34: 21300068
-      LevelTiles_39: 21300078
-      LevelTiles_41: 21300082
-      LevelTiles_14: 21300028
-      LevelTiles_20: 21300040
-      LevelTiles_31: 21300062
-      LevelTiles_13: 21300026
-      LevelTiles_18: 21300036
-      LevelTiles_21: 21300042
-      LevelTiles_10: 21300020
-      LevelTiles_32: 21300064
-      LevelTiles_30: 21300060
-      LevelTiles_16: 21300032
-      LevelTiles_6: 21300012
-      LevelTiles_11: 21300022
-      LevelTiles_19: 21300038
-      LevelTiles_2: 21300004
-      LevelTiles_28: 21300056
-      LevelTiles_29: 21300058
-      LevelTiles_43: 21300086
-      LevelTiles_37: 21300074
-      LevelTiles_5: 21300010
-      LevelTiles_47: 21300094
-      LevelTiles_44: 21300088
-      LevelTiles_33: 21300066
-      LevelTiles_45: 21300090
-      LevelTiles_25: 21300050
-      LevelTiles_12: 21300024
-      LevelTiles_3: 21300006
-      LevelTiles_27: 21300054
-      LevelTiles_36: 21300072
-      LevelTiles_22: 21300044
-      LevelTiles_17: 21300034
-      LevelTiles_7: 21300014
-      LevelTiles_8: 21300016
-      LevelTiles_1: 21300002
-      LevelTiles_35: 21300070
-      LevelTiles_26: 21300052
-      LevelTiles_4: 21300008
-      LevelTiles_9: 21300018
-      LevelTiles_46: 21300092
-      LevelTiles_0: 21300000
-      LevelTiles_38: 21300076
-      LevelTiles_40: 21300080
-      LevelTiles_42: 21300084
-      LevelTiles_23: 21300046
-      LevelTiles_15: 21300030
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

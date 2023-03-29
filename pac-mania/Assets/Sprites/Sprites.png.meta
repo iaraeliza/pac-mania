@@ -339,7 +339,7 @@ TextureImporter:
       213: 21300222
     second: Sprites_111
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -360,7 +360,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -370,8 +369,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
-    mipBias: 0
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -392,14 +391,11 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -415,18 +411,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2319,96 +2303,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Sprites_37: 21300074
-      Sprites_10: 21300020
-      Sprites_86: 21300172
-      Sprites_2: 21300004
-      Sprites_7: 21300014
-      Sprites_3: 21300006
-      Sprites_6: 21300012
-      Sprites_68: 21300136
-      Sprites_15: 21300030
-      Sprites_5: 21300010
-      Sprites_13: 21300026
-      Sprites_22: 21300044
-      Sprites_69: 21300138
-      Sprites_49: 21300098
-      Sprites_70: 21300140
-      Sprites_46: 21300092
-      Sprites_87: 21300174
-      Sprites_31: 21300062
-      Sprites_47: 21300094
-      Sprites_44: 21300088
-      Sprites_24: 21300048
-      Sprites_27: 21300054
-      Sprites_14: 21300028
-      Sprites_21: 21300042
-      Sprites_50: 21300100
-      Sprites_48: 21300096
-      Sprites_73: 21300146
-      Sprites_59: 21300118
-      Sprites_61: 21300122
-      Sprites_9: 21300018
-      Sprites_23: 21300046
-      Sprites_75: 21300150
-      Sprites_41: 21300082
-      Sprites_83: 21300166
-      Sprites_63: 21300126
-      Sprites_28: 21300056
-      Sprites_35: 21300070
-      Sprites_16: 21300032
-      Sprites_84: 21300168
-      Sprites_82: 21300164
-      Sprites_80: 21300160
-      Sprites_4: 21300008
-      Sprites_33: 21300066
-      Sprites_74: 21300148
-      Sprites_85: 21300170
-      Sprites_71: 21300142
-      Sprites_65: 21300130
-      Sprites_58: 21300116
-      Sprites_64: 21300128
-      Sprites_12: 21300024
-      Sprites_62: 21300124
-      Sprites_36: 21300072
-      Sprites_77: 21300154
-      Sprites_11: 21300022
-      Sprites_53: 21300106
-      Sprites_45: 21300090
-      Sprites_39: 21300078
-      Sprites_20: 21300040
-      Sprites_30: 21300060
-      Sprites_42: 21300084
-      Sprites_56: 21300112
-      Sprites_40: 21300080
-      Sprites_19: 21300038
-      Sprites_34: 21300068
-      Sprites_57: 21300114
-      Sprites_17: 21300034
-      Sprites_1: 21300002
-      Sprites_25: 21300050
-      Sprites_54: 21300108
-      Sprites_81: 21300162
-      Sprites_55: 21300110
-      Sprites_43: 21300086
-      Sprites_0: 21300000
-      Sprites_29: 21300058
-      Sprites_38: 21300076
-      Sprites_18: 21300036
-      Sprites_32: 21300064
-      Sprites_67: 21300134
-      Sprites_52: 21300104
-      Sprites_72: 21300144
-      Sprites_76: 21300152
-      Sprites_88: 21300176
-      Sprites_26: 21300052
-      Sprites_79: 21300158
-      Sprites_78: 21300156
-      Sprites_8: 21300016
-      Sprites_60: 21300120
-      Sprites_66: 21300132
-      Sprites_51: 21300102
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
