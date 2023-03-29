@@ -484,6 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterMotor: {fileID: 7786777576430502609}
+  CharacterLife: {fileID: 0}
   Animator: {fileID: 524467174}
   AudioSource: {fileID: 0}
   LifeLostSound: {fileID: 0}
