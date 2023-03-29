@@ -12,8 +12,8 @@ public enum GhostAnimationState
 [RequireComponent(typeof(GhostMove))]
 public class GhostAI : MonoBehaviour, IMovableCharacter
 {
-	// O Blinky comeÁa fora da casinha, ele precisa comeÁar direto no estado de Chasing.
-	// Criamos esta vari·vel 'StartInHouse' para poder diferenciar o Blinky dos outros.
+	// O Blinky come√ßa fora da casinha, ele precisa come√ßar direto no estado de Chasing.
+	// Criamos esta vari√°vel 'StartInHouse' para poder diferenciar o Blinky dos outros.
 	public bool StartsInHouse = true;
 
 	private GhostMove _ghostMove;
@@ -32,8 +32,8 @@ public class GhostAI : MonoBehaviour, IMovableCharacter
 	{
 		_ghostMove.CharacterMotor.ResetPosition();
 
-		// Ao reiniciar o jogo nos precisamos forÁar a mudanÁa do estado atual para garantir
-		// que os mÈtodos de Exit dos estados est„o sendo chamados pois È l· que fazemos os
+		// Ao reiniciar o jogo nos precisamos for√ßar a mudan√ßa do estado atual para garantir
+		// que os m√©todos de Exit dos estados est√£o sendo chamados pois √© l√° que fazemos os
 		// unsubscribes dos eventos.
 		if (StartsInHouse)
 		{

@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 6434340352211653910}
   - component: {fileID: 774516373819130496}
   - component: {fileID: 1648315722845492308}
+  - component: {fileID: 643642683}
   m_Layer: 6
   m_Name: TilemapLevel
   m_TagString: Untagged
@@ -7049,6 +7050,21 @@ CompositeCollider2D:
       - {x: -2.8750207, y: -13.000021}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+--- !u!114 &643642683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4676070523175669446}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd26cf6f7e181a444a144acbff44aa0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interval: 0.2
+  Color1: {r: 0, g: 0, b: 0.754717, a: 1}
+  Color2: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4676070523609416964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7515,6 +7531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5646108625067177448}
   - component: {fileID: 4569447439198540355}
+  - component: {fileID: 429683562606186662}
   m_Layer: 11
   m_Name: GhostHouse
   m_TagString: Untagged
@@ -7562,6 +7579,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &429683562606186662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6415039793220623671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0786c178446170249a4df9d0df89413d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeaveHouseInterval: 5
 --- !u!1 &6558950390571383186
 GameObject:
   m_ObjectHideFlags: 0

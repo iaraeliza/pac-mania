@@ -7,15 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4959690762535076493, guid: 0ba2c876566128e408531ea9ed877bd1,
+    - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
         type: 3}
-      propertyPath: m_Name
-      value: Clyde
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959690762535076493, guid: 0ba2c876566128e408531ea9ed877bd1,
-        type: 3}
-      propertyPath: m_TagString
-      value: Clyde
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
         type: 3}
@@ -34,6 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -45,16 +45,6 @@ PrefabInstance:
     - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4959690762535076490, guid: 0ba2c876566128e408531ea9ed877bd1,
@@ -89,11 +79,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3feb1a88281eb304897717cd76b4fa70,
         type: 2}
+    - target: {fileID: 4959690762535076493, guid: 0ba2c876566128e408531ea9ed877bd1,
+        type: 3}
+      propertyPath: m_Name
+      value: Clyde
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959690762535076493, guid: 0ba2c876566128e408531ea9ed877bd1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Clyde
+      objectReference: {fileID: 0}
     - target: {fileID: 4959690762931578612, guid: 0ba2c876566128e408531ea9ed877bd1,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300158, guid: 88e5ac1e384b39e4ab593c2ec123700b,
         type: 3}
+    - target: {fileID: 7862639344840041782, guid: 0ba2c876566128e408531ea9ed877bd1,
+        type: 3}
+      propertyPath: GhostType
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ba2c876566128e408531ea9ed877bd1, type: 3}

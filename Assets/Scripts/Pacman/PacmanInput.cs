@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterMotor))]
-public class PacmanInput : MonoBehaviour//, IMovableCharacter
+public class PacmanInput : MonoBehaviour, IMovableCharacter
 {
 	private CharacterMotor _motor;
 

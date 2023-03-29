@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2283740690488131617}
   - component: {fileID: 2283740690488131618}
   - component: {fileID: 2283740690488131619}
+  - component: {fileID: 2393694300349605247}
+  - component: {fileID: 4456342988200295753}
   m_Layer: 10
   m_Name: BaseCollectible(Dot)
   m_TagString: Untagged
@@ -109,3 +111,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
+--- !u!114 &2393694300349605247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283740690488131621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aab8079ce803494d87730400cc68029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsVictoryCondition: 1
+  Score: 10
+--- !u!114 &4456342988200295753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283740690488131621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87384985ba98e814392845f937cf2b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WakaClip1: {fileID: 8300000, guid: 4bf67b53f509fcb48a109a779a286126, type: 3}
+  WakaClip2: {fileID: 8300000, guid: a4d28b293a5dd9444aae4daa03be7285, type: 3}

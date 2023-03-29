@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7786777576644217943}
   - component: {fileID: 7786777576644217940}
   - component: {fileID: 885329567}
+  - component: {fileID: 1113144283}
   m_Layer: 8
   m_Name: View
   m_TagString: Untagged
@@ -102,6 +103,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1113144283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786777576644217942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0064900d07f9614f9beeb99b4ed9cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterMotor: {fileID: 244027436}
+  CharacterLife: {fileID: 422239288}
+  Animator: {fileID: 885329567}
+  AudioSource: {fileID: 0}
+  LifeLostSound: {fileID: 8300000, guid: 3f1c5bce6e83c434cb87e9847184e6a1, type: 3}
 --- !u!1 &7786777578098180152
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,6 +131,9 @@ GameObject:
   - component: {fileID: 7786777578098180157}
   - component: {fileID: 7786777578098180156}
   - component: {fileID: 963969594380764819}
+  - component: {fileID: 244027432}
+  - component: {fileID: 244027436}
+  - component: {fileID: 422239288}
   m_Layer: 8
   m_Name: Pacman
   m_TagString: Player
@@ -182,3 +203,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &244027432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786777578098180152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d19d328a17a044e97ac56e272e39eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &244027436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786777578098180152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ba2002b98ac7e438befeda53e97375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5
+--- !u!114 &422239288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786777578098180152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b3259ec05b6b9479c7a7acbf24e943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lives: 3

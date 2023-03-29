@@ -23,8 +23,8 @@ public class PacmanView : BaseView
 		Animator.SetBool("Dead", false);
 	}
 
-	// Usando OnEnable ao invÈs do OnDisable corrigiu o problema da animaÁ„o n„o tocando de forma
-	// bem mais confi·vel.
+	// Usando OnEnable ao inv√©s do OnDisable corrigiu o problema da anima√ß√£o n√£o tocando de forma
+	// bem mais confi√°vel.
 	private void CharacterMotor_OnEnabled()
 	{
 		Animator.speed = 1;
